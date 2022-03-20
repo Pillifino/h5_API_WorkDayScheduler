@@ -97,3 +97,25 @@ You are required to submit the following for review:
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+//Psuedo Code
+
+9-5 Scheduler:
+
+Layout
+  - Grid system of 12 coullumn Row
+  - The Scheduler Container will take up a toal of 
+    9 ROWS tall of 10 COLLUMNS wide with 3 containers for each row (1; 8; 1; split)
+Time Function    
+  - Shows Present Time In Red on the scheduler
+  - Show Past Time In Grey
+  - Show Future Time in Green
+Functions
+  - Function addEventName()
+    - Changes text content of variable that 
+      contains query selector to the middle timeblock HTML Element
+  - function saveEventName()
+    - Saves the text content added in function addEventName() to local storage
+Event Listeners
+  - Add new event by Clicking On Time Block
+  - Save event by clicking on save icon (Add to local storage)
