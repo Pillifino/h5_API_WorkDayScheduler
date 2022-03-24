@@ -106,7 +106,7 @@ Layout
   - Grid system of 12 coullumn Row
   - The Scheduler Container will take up a toal of 
     9 ROWS tall of 10 COLLUMNS wide with 3 containers for each row (1; 8; 1; split)
-Time Function    
+Time Requirements    
   - Shows Present Time In Red on the scheduler
   - Show Past Time In Grey
   - Show Future Time in Green
@@ -116,6 +116,17 @@ Functions
       contains query selector to the middle timeblock HTML Element
   - function saveEventName()
     - Saves the text content added in function addEventName() to local storage
+  - Current Day Is Displayed At The Top
+    - moment().format('dddd'); ----> Monday            
+  - Time Functions
+    - Past Time()
+      - moment().startOf('day').fromNow(); ----> X Hours Ago
+      - moment().startOf('hour').fromNow(); ----> X Minutes Ago
+    - Presenet Time() ----> Top Of Calendar
+      - moment().format('dddd');  ----> Monday 
+      - moment().format("MMM Do");  ----> Mar 21st
+    - Future Time()
+      - moment().endOf('day').fromNow();  ----> In X Hours
 Event Listeners
   - Add new event by Clicking On Time Block
   - Save event by clicking on save icon (Add to local storage)
