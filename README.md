@@ -130,3 +130,6 @@ Functions
 Event Listeners
   - Add new event by Clicking On Time Block
   - Save event by clicking on save icon (Add to local storage)
+
+  ## useful links
+  [jQuery UI Demos](https://jqueryui.com/demos/)

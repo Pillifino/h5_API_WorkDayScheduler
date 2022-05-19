@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Jquery Ui Links -->
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <!-- BootStrap Links -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -32,113 +39,108 @@
       <!-- Timeblocks go here -->
       <!-- 9 AM -->
       <div class="row">
-        <div class="col-1 border border-left-0 text-center" id="nine" data-hour="9">
+        <div class="col-1 border border-left-0 text-center" data-hour="9">
           9AM
         </div>
-        <div class="col-10 border">
-          Add Event
-        </div>
-        <div class="col-1 border bg-primary text-white text-center"> <!--Blue Save Button  -->
+        <textarea class="col-10 border" id="nine"data-hour="900">Add Event</textarea>
+        <div class="col-1 border bg-primary text-white text-center saveButton">
+          <!--Blue Save Button  -->
           Save
         </div>
       </div>
       <!-- 10 Am -->
       <div class="row">
-        <div class="col-1 border border-left-0 text-center" id="ten" data-hour="10">
+        <div class="col-1 border border-left-0 text-center" data-hour="10">
           10AM
         </div>
-        <div class="col-10 border">
-          Add Event
-        </div>
-        <div class="col-1 border bg-primary text-white text-center"> <!--Blue Save Button  -->
+        <textarea class="col-10 border" id="ten"data-hour="1000">Add Event</textarea>
+        <div class="col-1 border bg-primary text-white text-center saveButton">
+          <!--Blue Save Button  -->
           Save
         </div>
       </div>
       <!-- 11 AM -->
       <div class="row">
-        <div class="col-1 border border-left-0 text-center" id="eleven" data-hour="11">
+        <div class="col-1 border border-left-0 text-center" data-hour="11">
           11AM
         </div>
-        <div class="col-10 border">
-          Add Event
-        </div>
-        <div class="col-1 border bg-primary text-white text-center"> <!--Blue Save Button  -->
+        <textarea class="col-10 border" id="eleven"data-hour="1100">Add Event</textarea>
+        <div class="col-1 border bg-primary text-white text-center saveButton">
+          <!--Blue Save Button  -->
           Save
         </div>
       </div>
       <!-- Noon -->
       <div class="row">
-        <div class="col-1 border border-left-0 text-center" id="twelve" data-hour="12">
+        <div class="col-1 border border-left-0 text-center" data-hour="12">
           Noon
         </div>
-        <div class="col-10 border">
-          Add Event
-        </div>
-        <div class="col-1 border bg-primary text-white text-center"> <!--Blue Save Button  -->
+        <textarea class="col-10 border" id="twelve" data-hour="1200">Add Event</textarea>
+        <div class="col-1 border bg-primary text-white text-center saveButton">
+          <!--Blue Save Button  -->
           Save
         </div>
       </div>
       <!-- 1 PM -->
       <div class="row">
-        <div class="col-1 border border-left-0 text-center" id="one" data-hour="1">
+        <div class="col-1 border border-left-0 text-center" data-hour="1">
           1PM
         </div>
-        <div class="col-10 border">
-          Add Event
-        </div>
-        <div class="col-1 border bg-primary text-white text-center"> <!--Blue Save Button  -->
+        <textarea class="col-10 border" id="one" data-hour="1300">Add Event</textarea>
+        <div class="col-1 border bg-primary text-white text-center saveButton">
+          <!--Blue Save Button  -->
           Save
         </div>
       </div>
       <!-- 2 PM -->
       <div class="row">
-        <div class="col-1 border border-left-0 text-center" id="two" data-hour="2">
+        <div class="col-1 border border-left-0 text-center" data-hour="2">
           2PM
         </div>
-        <div class="col-10 border">
-          Add Event
-        </div>
-        <div class="col-1 border bg-primary text-white text-center"> <!--Blue Save Button  -->
+        <textarea class="col-10 border" id="two" data-hour="1400">Add Event</textarea>
+        <div class="col-1 border bg-primary text-white text-center saveButton">
+          <!--Blue Save Button  -->
           Save
         </div>
       </div>
       <!-- 3 PM -->
       <div class="row">
-        <div class="col-1 border border-left-0 text-center" id="three" data-hour="3">
+        <div class="col-1 border border-left-0 text-center" data-hour="3">
           3PM
         </div>
-        <div class="col-10 border">
-          Add Event
-        </div>
-        <div class="col-1 border bg-primary text-white text-center"> <!--Blue Save Button  -->
+        <textarea class="col-10 border" id="three" data-hour="1500">Add Event</textarea>
+        <div class="col-1 border bg-primary text-white text-center saveButton">
+          <!--Blue Save Button  -->
           Save
         </div>
       </div>
       <!-- 4 PM -->
       <div class="row">
-        <div class="col-1 border border-left-0 text-center" id="four" data-hour="4">
+        <div class="col-1 border border-left-0 text-center" data-hour="4">
           4PM
         </div>
-        <div class="col-10 border">
-          Add Event
-        </div>
-        <div class="col-1 border bg-primary text-white text-center"> <!--Blue Save Button  -->
+        <textarea class="col-10 border" id="four" data-hour="1600">Add Event</textarea>
+        <div class="col-1 border bg-primary text-white text-center saveButton">
+          <!--Blue Save Button  -->
           Save
         </div>
       </div>
       <!-- 5 PM -->
       <div class="row">
-        <div class="col-1 border border-left-0 text-center" id="five" data-hour="5">
+        <div class="col-1 border border-left-0 text-center" data-hour="5">
           5PM
         </div>
-        <div class="col-10 border">
-          Add Event
-        </div>
-        <div class="col-1 border bg-primary text-white text-center"> <!--Blue Save Button  -->
+        <textarea class="col-10 border" id="five" data-hour="1700">Add Event</textarea>
+        <div class="col-1 border bg-primary text-white text-center saveButton">
+          <!--Blue Save Button  -->
           Save
         </div>
       </div>
     </section>
+    <!-- Jquery Ui Links -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <!-- Moment.js Links -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./script.js"></script>
